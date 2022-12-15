@@ -1,0 +1,733 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* NavBar */
+
+.header
+{
+    position: relative;
+}
+
+.header .menu_boton
+{
+    display: none;
+}
+
+.header .menu_boton_cerrar
+{
+    display: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-left: 660px;
+    margin-top: 80px;
+}
+
+.logo
+{
+    position: absolute;
+    margin-left: 330px;
+    height: 40px;
+    bottom: 1px;
+}
+
+.side-menu
+{
+    display: none;
+}
+
+
+.menu a
+{
+    font-family: 'Inter', sans-serif;
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+    transition: all .4s;
+    padding: 10px;
+}
+
+.menu a:hover
+{
+    color: hsl(5, 85%, 63%);
+}
+
+
+.menu li
+{
+    display: inline;
+    padding: 20px;
+}
+
+.myname li
+{
+    color: rgb(133, 160, 93);
+}
+
+
+
+/* Section */
+.section
+{   
+    margin-top: 40px;
+    margin-left: 330px;
+}
+
+.img
+{
+    width: 50%;
+}
+
+.bgcel
+{
+    display: none;
+}
+
+.titulo
+{
+    margin-top: 10px;
+    width: 400px;
+    font-family: 'Inter', sans-serif;
+    font-size: 55px;
+    font-weight: bolder;
+    line-height: 55px;
+}
+
+.subtitulo
+{
+    margin-top: -155px;
+    margin-left: 370px;
+    width: 400px;
+    font-family: 'Inter', sans-serif;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.leermas
+{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    padding: 12px 30px 12px 30px;
+    font-size: 15px;
+    margin-left: 370px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    transition: all .4s;
+}
+
+.leermas:hover
+{
+    background-color: hsl(240, 100%, 5%);
+}
+
+
+
+/* Aside */
+.nuevo
+{
+    background-color: hsl(240, 100%, 5%);
+    width: 400px;
+    margin-left: 61%;
+    margin-top: -513px;
+    height: 530px;
+}
+
+.titulo2
+{
+    font-family: 'Inter', sans-serif;
+    color: hsl(35, 77%, 62%);
+    font-weight: bolder;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.noticia1
+{
+    margin-left: 20px;
+    width: 350px;
+    margin-top: 20px;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+
+.noticia2
+{
+    margin-left: 20px;
+    width: 350px;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+
+.noticia3
+{
+    margin-left: 20px;
+    width: 350px;
+}
+
+.tnoticia1
+{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all .4s;
+}
+
+.tnoticia1:hover
+{
+    color: hsl(35, 77%, 62%);
+}
+
+.sub1
+{
+    font-family: 'Inter', sans-serif;
+    color: hsl(233, 8%, 79%);
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.tnoticia2
+{
+    display: inline-block;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: all .4s;
+}
+
+.tnoticia2:hover
+{
+    color: hsl(35, 77%, 62%);
+}
+
+.sub2
+{
+    font-family: 'Inter', sans-serif;
+    color: hsl(233, 8%, 79%);
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.tnoticia3
+{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: all .4s;
+}
+
+.tnoticia3:hover
+{
+    color: hsl(35, 77%, 62%);
+}
+
+.sub3
+{
+    font-family: 'Inter', sans-serif;
+    color: hsl(233, 8%, 79%);
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+
+/* Cards */
+.cards
+{
+    display: flex;
+}
+
+
+/* Card1 */
+.card1
+{
+    display: flex;
+    margin-left: 330px;
+    margin-top: 60px;
+}
+
+.card1 .card1img
+{
+    width: 110px;
+    height: 140px;
+}
+
+.card1 .number1
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: hsl(233, 8%, 79%);
+    margin-left: 30px;
+    margin-top: -8px;
+}
+
+.card1 .titu1
+{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    margin-left: -40px;
+    margin-top: 40px;
+    width: 200px;
+    transition: all .4s;
+}
+
+.card1 .titu1:hover
+{
+    color: hsl(5, 85%, 63%);
+}
+
+.card1 .subcard1
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin-left: -200px;
+    margin-top: 70px;
+    width: 250px;
+    line-height: 25px;
+}
+
+/* Card2 */
+.card2
+{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.card2 .card2img
+{
+    width: 110px;
+    height: 140px;
+}
+
+.card2 .number2
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: hsl(233, 8%, 79%);
+    margin-left: 30px;
+    margin-top: -8px;
+}
+
+.card2 .titu2
+{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    margin-left: -40px;
+    margin-top: 40px;
+    width: 200px;
+    transition: all .4s;
+}
+
+.card2 .titu2:hover
+{
+    color: hsl(5, 85%, 63%);
+}
+
+.card2 .subcard2
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin-left: -200px;
+    margin-top: 70px;
+    width: 250px;
+    line-height: 25px;
+}
+
+
+/* Card3 */
+.card3
+{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 60px;
+}
+
+.card3 .card3img
+{
+    width: 110px;
+    height: 140px;
+}
+
+.card3 .number3
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: hsl(233, 8%, 79%);
+    margin-left: 30px;
+    margin-top: -8px;
+}
+
+.card3 .titu3
+{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    margin-left: -40px;
+    margin-top: 40px;
+    width: 210px;
+    transition: all .4s;
+}
+
+.card3 .titu3:hover
+{
+    color: hsl(5, 85%, 63%);
+}
+
+.card3 .subcard3
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin-left: -210px;
+    margin-top: 80px;
+    width: 250px;
+    line-height: 25px;
+}
+
+
+/* 1440px Size */
+@media screen and (max-width: 1440px)
+{
+    .logo
+    {
+        margin-left: 210px;
+    }
+
+    .section
+    {
+        margin-left: 210px;
+    }
+
+    .subtitulo
+    {
+        margin-left: 330px;
+        width: 300px;
+    }
+
+    .leermas
+    {
+        margin-left: 330px;
+    }
+
+    aside
+    {
+        margin-top: 45px;
+        margin-left: 35px;
+    }
+
+    nav
+    {
+        left: 1px;
+        margin-top: 55px;
+    }
+
+    .menu
+    {
+        margin-left: -80PX;
+    }
+
+    .cards
+    {
+        margin-left: -130px;
+    }
+
+    .subcard1
+    {
+        max-width: 220px;
+    }
+
+    .card2
+    {
+        margin-left: 1px;
+    }
+    .subcard2
+    {
+        max-width: 220px;
+    }
+
+    .card3
+    {
+        margin-left: 10px;
+    }
+
+    .subcard3
+    {
+        max-width: 220px;
+        position: relative;
+        bottom: 10px;
+    }
+
+}
+/* 375px Size */
+@media screen and (max-width: 375px)
+{
+    .logo
+    {
+        width: 50px;
+        height: 30px;
+        margin-left: 12px;
+        margin-bottom: 90px;
+    }
+
+    nav
+    {
+        margin-top: 140px;
+    }
+
+    .img{
+        display: none;
+    }
+
+    .bgcel
+    {
+        display: inline-block;
+        width: 350px;
+        height: 350px;
+        margin-left: -197px;
+        margin-top: -100px;
+    }
+
+    .section
+    {   
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo
+    {
+        margin-left: -197px;
+        font-size: 45px;
+        width: 330px;
+        line-height: 45px;
+    }
+
+    .desc{
+        flex-direction: column;
+        margin-left: -520px;
+        margin-top: 165px;
+    }
+
+    .subtitulo
+    {
+        width: 350px;
+    }
+
+    .nuevo
+    {
+        margin-left: -14px;
+        margin-top: 30px;
+        width: 335px;
+        height: 580px;
+    }
+
+    .noticia1
+    {
+        width: 300px;
+    }
+
+    .tnoticia1
+    {
+        font-size: 18px;
+    }
+
+    .sub1
+    {
+        width: 320px;
+    }
+
+
+    .noticia2
+    {
+        width: 300px;
+    }
+
+    .tnoticia2
+    {
+        font-size: 18px;
+    }
+
+    .sub2
+    {
+        width: 320px;
+    }
+
+    .tnoticia3
+    {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .sub3
+    {
+        width: 300px;
+    }
+
+    .cards
+    {
+        flex-direction: column;
+    }
+
+    .card1
+    {
+        margin-left: 152px;
+    }
+
+    .number1
+    {
+        position: absolute;
+        left: 115px;
+    }
+
+    .titu1
+    {
+        position: absolute;
+        left: 188px;
+    }
+
+    .subcard1
+    {
+        position: absolute;
+        left: 345px;
+    }
+
+    .card2
+    {
+        margin-left: 152px;
+        margin-top: 40px;
+    }
+
+    .number2
+    {
+        position: absolute;
+        left: 115px;
+    }
+
+    .titu2
+    {
+        position: absolute;
+        left: 188px;
+    }
+
+    .subcard2
+    {
+        position: absolute;
+        left: 345px;
+    }
+
+    .card3
+    {
+        margin-left: 152px;
+        margin-top: 40px;
+    }
+
+    .number3
+    {
+        position: absolute;
+        left: 115px;
+    }
+
+    .titu3
+    {
+        position: absolute;
+        left: 188px;
+    }
+
+    .subcard3
+    {
+        left: 225px;
+    }
+
+
+
+    /* Menu */
+
+    .header .menu_boton
+    {
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 320px;
+        margin-bottom: -50px;
+    }
+
+    .header .menu_boton_cerrar
+    {
+        display: none;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 40px;
+        z-index: 2;
+    }
+
+    nav .menu
+    {
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        width: 250px;
+        height: 100vh;
+        top: 0;
+        right: -250;
+        padding: 70px 200px 0px 10px;
+        z-index: 1;
+    }
+
+    .menu li
+    {
+        line-height: 45px;
+        margin-left: -15px;
+    }
+
+    .menu a
+    {
+        color: rgb(0, 0, 0);
+    }
+
+    .bg_black
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+    }
+}
