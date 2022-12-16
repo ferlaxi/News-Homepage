@@ -70,6 +70,7 @@ nav
 .myname li
 {
     color: rgb(133, 160, 93);
+    display: none;
 }
 
 
@@ -713,6 +714,11 @@ nav
     {
         line-height: 45px;
         margin-left: -15px;
+    }
+
+    .myname li
+    {
+        display: inline-block;
     }
 
     .menu a
